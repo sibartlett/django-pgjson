@@ -148,7 +148,7 @@ try:
         [],
         {
             'blank': ['blank', { 'default': True }],
-            'null': ['null', { 'default': True }],
+            'null': ['null', { 'default': False }],
         },
     )], (r'^django_pgjson\.fields\.JsonField',))
 
@@ -157,7 +157,7 @@ try:
         [],
         {
         'blank': ['blank', { 'default': True }],
-        'null': ['null', { 'default': True }],
+        'null': ['null', { 'default': False }],
         },
     )], (r'^django_pgjson\.fields\.JsonBField',))
 
